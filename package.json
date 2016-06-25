@@ -1,0 +1,27 @@
+{
+  "name": "OpugoMain",
+  "version": "0.0.1",
+  "private": true,
+  "description": "OpugoMain",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "lite-server": "^2.2.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp-jasmine-node": "^1.0.6",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.72.0",
+    "supertest": "^1.2.0"
+  }
+}
