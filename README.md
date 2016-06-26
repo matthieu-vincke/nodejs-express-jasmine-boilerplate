@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/matthieu-vincke/nodejs-express-jasmine-boilerplate/tree/master.svg?style=shield&circle-token=902e5467dd3b8565f7b0d027d99a73d3000ef429)](https://circleci.com/gh/matthieu-vincke/nodejs-express-jasmine-boilerplate/tree/master)
+
+
 # Boilerplate for NodeJs express app with Jasmine and continuous integration and deployment
 
 This is a simple boilerplate with unit tests and continuous integration and deployment
