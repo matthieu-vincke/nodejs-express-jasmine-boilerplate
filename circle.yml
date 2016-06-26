@@ -6,7 +6,8 @@ dependencies:
   override:
     - npm install --dev
 
-production:
-  branch: master
-  commands:
-    - ./deploy.sh
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./deploy.sh
