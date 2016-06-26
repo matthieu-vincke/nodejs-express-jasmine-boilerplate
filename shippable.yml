@@ -5,17 +5,17 @@ node_js:
 
 env:
   global:
-    - [MyEnv]=[MyValue]
+    #- [MyEnv]=[MyValue]
 
 build:
   ci:
     - npm install
     - npm test
 
-  on_success:
-    - if [ "$BRANCH" == "master" ]; then git remote add dokku dokku@[VM IP]:[VM name]; fi
-    - if [ "$BRANCH" == "master" ]; then git push dokku master; fi
+  #on_success:
+   # - if [ "$BRANCH" == "master" ]; then git remote add dokku dokku@[VM IP]:[VM name]; fi
+   # - if [ "$BRANCH" == "master" ]; then git push dokku master; fi
 
-notifications:
-  email:
-        - [YourEmail]
+#notifications:
+  #email:
+     #   - [YourEmail]
