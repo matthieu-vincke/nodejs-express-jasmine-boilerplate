@@ -2,20 +2,20 @@ language: node_js
 
 node_js:
   - 6.2.2
-  
+
 env:
   global:
-    - DOKKU_NGINX_PORT=80
-  
+    - [MyEnv]=[MyValue]
+
 build:
   ci:
     - npm install
-    - ifconfig
-    
+    - npm test
+
   on_success:
-    - if [ "$BRANCH" == "master" ]; then git remote add dokku dokku@178.62.63.80:dokkutestshippable; fi
-    - if [ "$BRANCH" == "master" ]; then export DOKKU_NGINX_PORT=80;git push dokku master; fi
+    - if [ "$BRANCH" == "master" ]; then git remote add dokku dokku@[VM IP]:[VM name]; fi
+    - if [ "$BRANCH" == "master" ]; then git push dokku master; fi
 
 notifications:
   email:
-        - matthieu.vincke@gmail.com
+        - [YourEmail]
