@@ -1,5 +1,5 @@
 Sources on Github: [https://github.com/matthieu-vincke/nodejs-express-jasmine-boilerplate.git](nodejs-express-jasmine-boilerplate.git)  
-
+  
 [![CircleCI](https://circleci.com/gh/matthieu-vincke/nodejs-express-jasmine-boilerplate/tree/master.svg?style=shield&circle-token=902e5467dd3b8565f7b0d027d99a73d3000ef429)](https://circleci.com/gh/matthieu-vincke/nodejs-express-jasmine-boilerplate/tree/master)
 [![Run Status](https://api.shippable.com/projects/576f8ba33be4f4faa56ad129/badge?branch=master)](https://app.shippable.com/projects/576f8ba33be4f4faa56ad129)
 
